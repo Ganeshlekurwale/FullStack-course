@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <h1>Event Registration</h1>
+    <form>
+      <label for="name">Name -</label>
+      <input type="text" name="name" id="name" placeholder="Enter Name" />
+      <br />
+      <br />
+
+      <label for="email">Email -</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter Email Id"
+      />
+      <br />
+      <br />
+      <label for="number">Phone -</label>
+
+      <input type="tel" name="number" id="number" placeholder="Enter Number" />
+      <br />
+      <br />
+
+      <label for="droplist">Occaupation -</label>
+      <select name="occaupation" id="droplist">
+        <option value="Other">Other</option>
+        <option value="student">Student</option>
+        <option value="proffetional">Proffetional</option>
+      </select>
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Gender -</legend>
+        <input type="radio" name="radio" id="radio1" />
+        <label for="radio1">Male</label>
+
+        <input type="radio" name="radio" id="radio2" />
+        <label for="radio2">Female</label>
+      </fieldset>
+      <!-- <label for="radio">Gender -</label>
+
+      <input type="radio" name="radio1" id="radio1" />
+      <label for="radio1">Male</label>
+
+      <input type="radio" name="radio2" id="radio2" />
+      <label for="radio2">Female</label> -->
+
+      <br /><br />
+      <!-- <label for="checkbox">Topic Of Intrest</label><br /><br />
+      <input type="checkbox" name="checkbox1" id="checkbox1" />
+      <label for="checkbox1">HTML</label><br />
+
+      <input type="checkbox" name="checkbox2" id="checkbox2" />
+      <label for="checkbox2">CSS</label><br />
+
+      <input type="checkbox" name="checkbox3" id="checkbox3" />
+      <label for="checkbox3">JavaScript</label><br /> -->
+
+      <fieldset>
+        <legend>Type of Intrest</legend>
+        <input type="checkbox" name="checkbox1" id="checkbox1" />
+        <label for="checkbox1">HTML</label><br />
+
+        <input type="checkbox" name="checkbox2" id="checkbox2" />
+        <label for="checkbox2">CSS</label><br />
+
+        <input type="checkbox" name="checkbox3" id="checkbox3" />
+        <label for="checkbox3">JavaScript</label><br />
+      </fieldset>
+      <br /><br />
+
+      <label for="filetype">Resume -</label>
+      <input type="file" name="filetype" id="filetype" />
+      <br /><br />
+
+      <label for="comments">Comments</label><br /><br />
+      <textarea
+        name="comments"
+        id="comments"
+        cols="30"
+        rows="10"
+        placeholder="Enter Comments"
+      ></textarea>
+
+      <br />
+
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
